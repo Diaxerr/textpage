@@ -69,12 +69,12 @@ main {
   transform-origin: center;
 }
 
-.produkty-wrapper img[src="foty/a56bd667-714f-4664-bb1c-8b1af41e8245.jpeg"] {
+.produkty-wrapper img[src="a56bd667-714f-4664-bb1c-8b1af41e8245.jpeg"] {
   animation: kreciSieBanan 2s linear infinite;
   transform-origin: center;
 }
 
-.produkty-wrapper img[src="foty/3c2941cc-621b-4184-80cc-c734054da115.jpeg"] {
+.produkty-wrapper img[src="3c2941cc-621b-4184-80cc-c734054da115.jpeg"] {
   animation: kreciSieWaldzio 1.3s linear infinite;
   transform-origin: center;
 }
