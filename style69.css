@@ -1,0 +1,95 @@
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-color: #111;
+  color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #d62828;
+  padding: 2rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.slogan {
+  font-style: italic;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+.produkty ul {
+  list-style-type: "💩 ";
+  padding-left: 1rem;
+}
+
+.produkty-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 5rem;
+  margin-top: 2rem;
+}
+
+.produkty img {
+  border: 2px solid #fca311;
+  border-radius: 8px;
+}
+
+@keyframes kreciSieWaldzio {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes kreciSieBanan {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.produkty-wrapper img {
+  animation: kreciSieWaldzio 14s linear infinite;
+  transform-origin: center;
+}
+
+.produkty-wrapper img[src="foty/a56bd667-714f-4664-bb1c-8b1af41e8245.jpeg"] {
+  animation: kreciSieBanan 2s linear infinite;
+  transform-origin: center;
+}
+
+.produkty-wrapper img[src="foty/3c2941cc-621b-4184-80cc-c734054da115.jpeg"] {
+  animation: kreciSieWaldzio 1.3s linear infinite;
+  transform-origin: center;
+}
+
+.kontakt {
+  margin-top: 4rem;
+  background: #222;
+  padding: 1rem;
+  border-left: 4px solid #fca311;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
